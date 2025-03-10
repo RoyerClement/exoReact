@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 colonnes égales */
+    gap: 6%; /* Espace entre les éléments */
+    width: 70%;
+    height: 30%;
+    padding: 2%;
+    position: absolute;
+    left:15%;
+    top:20%;
+    border: 15px solid rgb(255, 255, 255);
+    background-color: #69695f;
+  }
+  
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    border: 5px solid rgb(255, 255, 255);
+    background-color: #f5f5dc; /* Beige */
+  }
+  
+  .grid-item span {
+    font-size: 120%; /* Taille du texte */
+    font-weight: bold;
+    color: black; /* Couleur du texte */
+  }
